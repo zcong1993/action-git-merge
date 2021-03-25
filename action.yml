@@ -1,12 +1,23 @@
 name: 'Action'
-description: 'Action template'
+description: 'Action git merge'
 author: 'zcong1993'
 branding:
   icon: 'message-square'
   color: 'blue'
 inputs:
-  body:
-    description: 'Body to echo'
+  token:
+    description: 'GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT)'
+    default: ${{ github.token }}
+    required: false
+  base:
+    description: 'The name of the base branch that the head will be merged into'
+    default: 'master'
+    required: false
+  head:
+    description: 'The head to merge. This can be a branch name or a commit SHA1'
+    required: true
+  commit_message:
+    description: 'Commit message to use for the merge commit. If omitted, a default message will be used'
     required: false
 
 runs:
