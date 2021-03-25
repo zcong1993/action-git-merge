@@ -1,6 +1,6 @@
 # action-template
 
-> test
+> test2
 
 ## License
 
