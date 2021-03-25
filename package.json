@@ -1,5 +1,5 @@
 {
-  "name": "action-template",
+  "name": "action-git-merge",
   "version": "0.0.0",
   "description": "my cool project",
   "main": "./dist/index.js",

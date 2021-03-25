@@ -1,6 +1,6 @@
-# action-template
+# action-git-merge
 
-> test2
+> git merge action
 
 ## License
 
