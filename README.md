@@ -1,6 +1,6 @@
 # action-template
 
-> my cool project
+> test
 
 ## License
 
